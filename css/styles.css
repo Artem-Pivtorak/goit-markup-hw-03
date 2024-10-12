@@ -11,7 +11,13 @@ ol {
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
 
@@ -61,7 +67,7 @@ a {
 }
 
 .logo-part-header {
-color: #2e2f42;
+    color: #2e2f42;
 }
 
 .logo-part {
@@ -159,7 +165,8 @@ img {
     background-color: #404BBF;
 }
 
-.section-title, .section-title-portfolio {
+.section-title,
+.section-title-portfolio {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -206,4 +213,134 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+
+/* Друга секція */
+
+.features-section {
+    padding: 120px 0;
+}
+
+.features-section .container {
+    position: relative;
+}
+
+.features-section .section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.features-section ul {
+    display: flex;
+    gap: 24px;
+}
+
+.features-section li {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.features-section li .item-title {
+    margin-bottom: 8px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+}
+
+/* Третя секція (Team) */
+
+.team-section {
+    padding: 120px 0;
+}
+
+.team-section .section-title-team {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.team-section ul {
+    display: flex;
+    gap: 24px;
+}
+
+.team-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    background-color: #fff;
+}
+
+.team-item div {
+    padding: 32px 0;
+}
+
+.team-item h3 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-item p {
+    text-align: center;
+}
+
+/* Четверта секція (Portfolio) */
+
+.additional-section {
+    padding: 120px 0;
+    background-color: #F4F4FD;
+}
+
+.additional-section .section-title-portfolio {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    margin-bottom: 72px;
+}
+
+.additional-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.app-item {
+    flex-basis: calc((100% - 48px) / 3);
+    margin-bottom: 48px;
+}
+
+.app-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.app-item:last-child,
+.app-item:nth-last-child(2),
+.app-item:nth-last-child(3) {
+    margin-bottom: 0;
+}
+
+.app-item div {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.app-item h3 {
+    margin-bottom: 8px;
 }
