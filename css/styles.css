@@ -7,10 +7,36 @@ body {
 ul,
 ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -25,6 +51,8 @@ a {
 
 .header-logo {
     color: #4d5ae5;
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
 .logo-part-header {
@@ -35,7 +63,15 @@ color: #2e2f42;
     color: #f4f4fd;
 }
 
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .nav-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -52,9 +88,18 @@ color: #2e2f42;
 
 .contacts {
     font-style: normal;
+    margin-left: auto;
+}
+
+.contact-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .contact-link {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
