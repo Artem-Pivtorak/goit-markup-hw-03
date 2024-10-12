@@ -55,6 +55,11 @@ a {
     margin-right: 76px;
 }
 
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .logo-part-header {
 color: #2e2f42;
 }
@@ -183,6 +188,12 @@ img {
 
 .page-footer {
     background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.footer-container {
+    max-width: 1158px;
+    margin: 0 auto;
 }
 
 .team-item {
@@ -190,6 +201,7 @@ img {
 }
 
 .footer-logo-text {
+    max-width: 264px;
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.02em;
