@@ -52,210 +52,149 @@ a {
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-.header-logo {
-    color: #4d5ae5;
-    padding: 24px 0;
-    margin-right: 76px;
-}
-
-.footer-logo {
-    display: inline-block;
-    margin-bottom: 16px;
-}
-
-.logo-part-header {
+    font-size: 28px;
     color: #2e2f42;
 }
 
-.logo-part {
-    color: #f4f4fd;
+.logo-part,
+.logo-part-header {
+    color: #ff6b08;
 }
 
-/* Навігація */
 .nav-list {
     display: flex;
-    align-items: center;
-    gap: 40px;
+    margin-left: 60px;
+}
+
+.nav-item {
+    margin-right: 50px;
 }
 
 .nav-link {
-    display: block;
-    padding: 24px 0;
-    font-weight: 500;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    font-weight: 500;
+    color: #434455;
 }
 
-.nav-link:hover,
-.nav-link:focus,
-.contact-link:hover,
-.contact-link:focus {
-    color: #404bbf;
-}
-
-/* Контакти */
+/* Контактні дані */
 .contacts {
-    font-style: normal;
     margin-left: auto;
 }
 
 .contact-list {
     display: flex;
-    align-items: center;
-    gap: 40px;
+}
+
+.contacts_item {
+    margin-left: 50px;
 }
 
 .contact-link {
-    display: block;
-    padding: 24px 0;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
+    font-weight: 500;
     color: #434455;
 }
 
-/* Зображення */
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-/* Перша секція */
+/* Секція 1 */
 .first-section {
-    padding: 188px 0;
-    background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .section-title-main {
-    max-width: 496px;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
+    font-size: 48px;
     text-align: center;
-    color: #fff;
-    margin: 0 auto;
+    color: #2e2f42;
+    margin-bottom: 60px;
 }
 
 .order-button {
     display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    background-color: #4d5ae5;
-    border-radius: 4px;
-    color: #fff;
-    cursor: pointer;
-    text-align: center;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
+    padding: 15px 30px;
     margin: 0 auto;
-}
-
-.order-button:hover,
-.order-button:focus {
-    background-color: #404BBF;
-}
-
-/* Друга секція (Features) */
-.features-section {
-    padding: 120px 0;
-    background-color: #fff;
-}
-
-.features-section .container {
-    position: relative;
-}
-
-.features-section h2 {
-    text-align: center;
+    background-color: #ff6b08;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    color: #2e2f42;
-    margin-bottom: 72px;
+    cursor: pointer;
 }
 
-.features-section ul {
+/* Секція 2 */
+.section-light {
+    background-color: #f4f4fd;
+}
+
+.features-list {
     display: flex;
-    gap: 24px;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
-.features-section li {
-    flex-basis: calc((100% - 72px) / 4);
+.features-item {
+    max-width: 270px;
 }
 
-.features-section li h3 {
-    margin-bottom: 8px;
+.features-item-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 16px;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
+.item-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #2e2f42;
 }
 
-/* Третя секція (Team) */
+/* Секція 3 */
 .team-section {
     padding: 120px 0;
-    background-color: #F4F4FD;
 }
 
-.team-section h2 {
-    text-align: center;
-    font-size: 36px;
+.section-title-team {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
-    line-height: 1.11;
-    color: #2e2f42;
+    font-size: 36px;
+    text-align: center;
     margin-bottom: 72px;
 }
 
-.team-section ul {
+.team-list {
     display: flex;
-    gap: 24px;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .team-item {
-    flex-basis: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
-    background-color: #fff;
+    flex-basis: calc((100% - 30px) / 2);
 }
 
-/* Стилі для контейнера */
 .team-info {
-    padding: 32px 0;
+    padding: 32px;
+    border: 1px solid #e7e9fc;
+    text-align: center;
 }
 
-/* Стилі для заголовку імені */
 .team-name {
-    text-align: center;
-    margin-bottom: 8px;
+    margin: 24px 0 8px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2e2f42;
 }
 
-/* Стилі для ролі */
 .team-role {
-    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #434455;
 }
 
-/* Четверта секція (Portfolio) */
+/* Секція 4 */
 .additional-section {
     padding: 120px 0;
     background-color: #F4F4FD;
@@ -269,14 +208,20 @@ img {
     margin-bottom: 72px;
 }
 
-.additional-section ul {
+.app-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 48px;
+    row-gap: 48px;
 }
 
 .app-item {
-    flex-basis: calc((100% - 3 * 24px) / 3);
+    flex-basis: calc((100% - 2 * 48px) / 3);
+    margin-bottom: 48px;
+}
+
+.app-item:nth-child(n+4) {
+    margin-bottom: 0;
 }
 
 .app-info {
@@ -287,23 +232,35 @@ img {
 
 .app-title {
     margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2e2f42;
 }
 
 /* Footer */
 .page-footer {
-    background-color: #2e2f42;
-    padding: 100px 0;
+    background-color: #f4f4fd;
+    padding: 60px 0;
 }
 
 .footer-container {
-    max-width: 1158px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #2e2f42;
 }
 
 .footer-logo-text {
-    max-width: 264px;
-    font-size: 12px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #434455;
+    text-align: center;
+    margin-top: 16px;
+    max-width: 600px;
 }
