@@ -233,26 +233,26 @@ img {
     gap: 24px;
 }
 
-.team-item {
-    flex-basis: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
+/* Оформлення для кожного контейнера працівника */
+.team-info {
+    padding: 32px 0;
+    border-radius: 4px;
     background-color: #fff;
 }
 
-/* Стилі для контейнера */
-.team-info {
-    padding: 32px 0;
-}
-
-/* Стилі для заголовку імені */
+/* Оформлення заголовка (ім'я працівника) */
 .team-name {
     text-align: center;
+    font-weight: 700;
+    font-size: 18px;
     margin-bottom: 8px;
 }
 
-/* Стилі для ролі */
+/* Оформлення параграфа (посада) */
 .team-role {
     text-align: center;
+    font-size: 14px;
+    color: #434455;
 }
 
 /* Четверта секція (Portfolio) */
