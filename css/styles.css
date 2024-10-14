@@ -145,6 +145,7 @@ img {
     text-align: center;
     color: #fff;
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .order-button {
@@ -177,15 +178,6 @@ img {
 
 .features-section .container {
     position: relative;
-}
-
-.features-section h2 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    color: #2e2f42;
-    margin-bottom: 72px;
 }
 
 .features-section ul {
@@ -237,8 +229,6 @@ img {
 /* Оформлення для кожного контейнера працівника */
 .team-info {
     padding: 32px 0;
-    border-radius: 4px;
-    background-color: #fff;
 }
 
 /* Оформлення заголовка (ім'я працівника) */
@@ -259,7 +249,6 @@ img {
 /* Четверта секція (Portfolio) */
 .additional-section {
     padding: 120px 0;
-    background-color: #F4F4FD;
 }
 
 .additional-section h2 {
@@ -274,12 +263,11 @@ img {
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
-    gap: 24px;
+    gap: 48px 24px;
 }
 
 .app-item {
     flex-basis: calc((100% - 3 * 24px) / 3);
-    margin-bottom: 48px;
 }
 
 .app-item:nth-child(4),
@@ -311,16 +299,18 @@ img {
 
 .footer-logo-text {
     max-width: 264px;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
 
-.team-item:first-child .team-info {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
+.team-detail {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.team-item {
+border-radius: 0px 0px 4px 4px;
 }
 
